@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+[alt="brand-logo"]{
+    width: 100px;
+}
+
+ul{
+    position: relative;
+    left: -150px;
+    top: 2px;
+    
+}
+
+li{
+   list-style: none;
+   display: inline;
+   padding: 0pc 25px;
+   font-family: "Poppins";
+   font-size: 15px;
+   color: #d0d0d0;
+}
+
+li:hover{
+    color: black;
+}
+
+.nav-button{
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5955b3;
+    color: white;
+}
+
+/* Left text  */
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 20vh);
+}
+
+[alt="illustration"]{
+    position: relative;
+    height: auto;
+    top: 25px;
+    max-width: 675px;
+    left: 100px;
+}
+
+.banner-container div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.heading-text > span {
+    color: #5955b3;
+}
+
+.banner-container div:first-child{
+    width: 30%;
+}
+
+.description{
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 15px;
+    color: rgb(120, 115, 115);
+}
+
+
+.btn{
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-left: -190px;
+    margin-top: 50px;
+}
+
